@@ -1,0 +1,8 @@
+{
+  "name": "my-react-project",
+  "framework": "react",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "devCommand": "npm start"
+}
