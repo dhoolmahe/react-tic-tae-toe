@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import "../styles/App.css";
 
 const App = () => {
@@ -58,6 +59,7 @@ const App = () => {
   return (
     <>
       <SpeedInsights />
+      <Analytics />
       <div className="app">
         <h1>Tic Tac Toe</h1>
         <div className={`status ${winner ? "winner" : ""}`}>{status}</div>
